@@ -94,6 +94,7 @@ public class DiceAImpl implements Dice{
 ```
 
 ## 4. Player(주사위를 가지고 있는...)
+[링크](https://github.com/BlackMonkey56/SPRING_STUDY/tree/master/DI/src/main/java/spring/service/dice/play)
 
 > FileName : Player01.java
 > ㅇDiceA 을 가지고(?, has a :: Association Relationship)있는 Player Object Modeling
