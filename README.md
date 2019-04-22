@@ -1,7 +1,7 @@
 # Spring Framework
 
 ## 1. 배경
-<img src="before_spring.jpg" width="60%">
+<img src="before_spring.jpg" width="100%">
 
 ```
 기존의 서블릿 구조에서는 중복된 작업이 많았다. 
