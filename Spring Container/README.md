@@ -40,8 +40,10 @@ bean2.sayHello("Spring");
 ```
 
 - MessageBeanTest4.java
+  ```
   Pre Loading방식
   factory가 생성된 직후 bean들도 생성됨.
+  ```
 
 ```
 System.out.println("1. 설정문서를 읽어서 공장에서 빈을 생성합니다...");
