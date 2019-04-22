@@ -11,8 +11,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<!-- MessageBeanKr krBean = new MessageBeanKr -->
-	<bean id="krBean" class="exam.step3.MessageBeanKr"></bean>
-	<bean id="enBean" class="exam.step3.MessageBeanEn"></bean>
+	<bean id="krBean" class="exam.step3.MessageBeanKr"/>
+	<bean id="enBean" class="exam.step3.MessageBeanEn"/>
 </beans>
 ```
 
