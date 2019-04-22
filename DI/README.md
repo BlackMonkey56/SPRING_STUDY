@@ -63,7 +63,7 @@ public interface Dice {
 
 #### - <u>Dice A, B, C impl</u>
 
-> A,B,C 코드 동일...
+> A,B,C 코드 동일...[링크](https://github.com/BlackMonkey56/SPRING_STUDY/tree/master/DI/src/main/java/spring/service/dice/impl)
 
 ```
 package spring.service.dice.impl;
