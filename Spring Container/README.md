@@ -20,8 +20,8 @@
 
 우리는 Bean Container에서 생성된 빈을 가져다가 사용(sayHello() 호출)
 
-- MessageBeanTest3.java
-  Lazy Loading방식
+#### MessageBeanTest3.java
+> Lazy Loading방식
   클라이언트가 특정한 서비스를 요청할 때 그때서야 비로서 빈을 생성...(getBean()호출 시)
 
 ```
@@ -39,7 +39,7 @@ bean1.sayHello("스프링");
 bean2.sayHello("Spring");
 ```
 
-- MessageBeanTest4.java
+#### MessageBeanTest4.java
 > Pre Loading방식
   factory가 생성된 직후 bean들도 생성됨.
 
