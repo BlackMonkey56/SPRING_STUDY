@@ -22,7 +22,7 @@
 
 #### MessageBeanTest3.java
 > Lazy Loading방식
-	클라이언트가 특정한 서비스를 요청할 때 그때서야 비로서 빈을 생성...(getBean()호출 시)
+	> 클라이언트가 특정한 서비스를 요청할 때 그때서야 비로서 빈을 생성...(getBean()호출 시)
 
 ```
 System.out.println("1. 빈(Bean) 설정문서를 읽어들이기 위한 파일시스템을 생성...");
