@@ -12,7 +12,7 @@
 <img src="img/resources.PNG">
 
 ## 2. dice service 설정파일(xml) 
-[링크](./src/resources/config)
+[링크](https://github.com/BlackMonkey56/SPRING_STUDY/blob/master/DI/src/main/resources/config/diceservice.xml)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
