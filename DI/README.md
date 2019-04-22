@@ -2,13 +2,13 @@
 
 ## 1. java package
 
-#### 컴포넌트, DAO와 같은 java소스파일 저장
+#### -컴포넌트, DAO와 같은 java소스파일 저장
 <img src="img/java.PNG">
 
-#### 테스트를 위한 java소스파일 저장
+#### -테스트를 위한 java소스파일 저장
 <img src="img/test.PNG">
 
-#### bean 설정파일, properties파일 저장
+#### -bean 설정파일, properties파일 저장
 <img src="img/resources.PNG">
 
 ## 2. dice service 설정파일(xml)
