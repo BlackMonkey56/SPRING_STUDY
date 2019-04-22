@@ -151,7 +151,7 @@ public class Player02 {
 ```
 
 ## 5. 테스트 코드
-
+[링크](https://github.com/BlackMonkey56/SPRING_STUDY/blob/master/DI/src/test/java/spring/service/dice/test/DiceTestAppUseSpring.java)
 ```
 package spring.service.dice.test;
 
