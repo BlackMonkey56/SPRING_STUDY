@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- bean설정 :: target 2개, advice 1개 -->
+	<bean id="member" class="com.ssafy.aop.solv2.MemberDao"/>
+	<bean id="product" class="com.ssafy.aop.solv2.ProductDao"/>
+	<bean id="logging" class="com.ssafy.aop.solv2.ServiceAdvice"/>
+	
+	<!-- 어드바이스의 어떤 메소드가 타겟의 어느지범으로 위빙되는지를 설정문서에 등록 :: aop config-->
+	<aop:config>
+		<aop:aspect id="loggingAspect" ref="logging">
+			<aop:pointcut expression="within(*..solv2..*)" id="pc"/>
+			<aop:around method="logPush" pointcut-ref="pc"/>
+		</aop:aspect>
+	</aop:config>
+</beans>
