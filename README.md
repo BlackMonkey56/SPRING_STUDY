@@ -1,6 +1,6 @@
 # Spring Framework
 
-##1. 배경
+## 1. 배경
 <img src="before_spring.jpg" width="60%">
 
 ```
