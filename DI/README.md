@@ -11,7 +11,8 @@
 #### -bean 설정파일, properties파일 저장
 <img src="img/resources.PNG">
 
-## 2. [dice service 설정파일(xml)](/src/resources/config)
+## 2. dice service 설정파일(xml) 
+[링크](./src/resources/config)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
