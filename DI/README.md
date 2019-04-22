@@ -25,22 +25,22 @@
 	<bean id="diceB" class="spring.service.dice.impl.DiceBImpl"/>
 	<bean id="diceC" class="spring.service.dice.impl.DiceCImpl"/>
 
-	<!-- 2. player01이라는 이름의 반을 생성 :: DiceA를 생성자로 주입-->
+	<!-- 2. player01이라는 이름의 빈을 생성 :: DiceA를 생성자로 주입-->
 	<bean id="player01" class="spring.service.dice.play.Player02">
 		<constructor-arg ref="diceA"/>
 	</bean>
 
-	<!-- 2. player02이라는 이름의 반을 생성 :: DiceB를 setter로 주입-->
+	<!-- 2. player02이라는 이름의 빈을 생성 :: DiceB를 setter로 주입-->
 	<bean id="player02" class="spring.service.dice.play.Player02">
 		<property name="dice" ref="diceB"/> <!-- player02.setDice(diceB) -->
 	</bean>
 
-	<!-- 3. player03이라는 이름의 반을 생성 :: DiceC를 setter로 주입-->
+	<!-- 3. player03이라는 이름의 빈을 생성 :: DiceC를 setter로 주입-->
 	<bean id="player03" class="spring.service.dice.play.Player02">
 		<property name="dice" ref="diceC"/>
 	</bean>
 
-	<!-- 4. player04이라는 이름의 반을 생성 :: DiceA를 생성자로 주입-->
+	<!-- 4. player04이라는 이름의 빈을 생성 :: DiceA를 생성자로 주입-->
 	<bean id="player04" class="spring.service.dice.play.Player02">
 		<constructor-arg ref="diceA"/>
 	</bean>
